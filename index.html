@@ -10,15 +10,266 @@
   https://fonts.gstatic.com
   https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap
 
-  <!-- Inline CSS (keeps things safe; you can move to styles.css later) -->
-  <style>
-    a{color:inherit;text-decoration:none}
-    /* (the REST of your CSS goes here...) */
-  </style>
+  <!-- Your external stylesheet -->
+  styles.css
 </head>
 
 <body>
-  <h1>Your site is now working!</h1>
-  <p>If you see this, your HTML is FIXED and unescaped.</p>
+
+<header class="header">
+  <div class="container nav">
+    <div class="brand">Naloxone Advocates</div>
+
+    <nav class="navlinks">
+      #aboutAbout</a>
+      #trainingTraining &amp; P2P</a>
+      #volunteerVolunteer</a>
+      #resourcesResources</a>
+      #newsNews</a>
+      #contactContact</a>
+    </nav>
+
+    <button id="openCart" class="btn primary">
+      Cart <span id="cartCount" class="badge">0</span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-wrap">
+
+      <div class="hero-left">
+        <h1>Saving Lives Through Community Action</h1>
+        <p>Free naloxone training, overdose response skills and kits for Plymouth and Devon communities.</p>
+        <div class="cta-row">
+          #trainingBook Free Training</a>
+          #howRequest Naloxone Kit</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <strong>Follow &amp; Share</strong>
+        <div class="soc">
+          #X</a>
+          #f</a>
+          #ig</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- KPI -->
+  <section class="container kpi">
+    <div class="row">
+      <div><div class="num">500+</div><div>People Trained</div></div>
+      <div><div class="num">1,200+</div><div>Naloxone Kits Distributed</div></div>
+      <div><div class="num">150+</div><div>Lives Saved</div></div>
+    </div>
+  </section>
+
+  <!-- TRAINING -->
+  <section id="training" class="section">
+    <div class="container">
+      <span class="chip pink">New this month</span>
+      <h2>Upcoming Training Sessions</h2>
+      <p class="lead">Choose a session that works for you</p>
+      <div id="sessions" class="grid-3"></div>
+      <div class="center">#View All Training</a></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container about">
+      <div>
+        <span class="chip pink">Who We Are</span>
+        <h2>A Grassroots Movement for Harm Reduction</h2>
+        <p class="meta">Naloxone Advocates Plymouth CIC is a community-led organisation committed to reducing the harms associated with substance use. We believe everyone deserves safety, dignity, and access to life‑saving information — no judgement, no barriers, just support.</p>
+        #Read Our Story</a>
+      </div>
+
+      <div class="testi">
+        <p>“This organisation saved my life. The training was non‑judgemental, practical, and gave me the confidence to help others in my community.”</p>
+        <div class="meta">— Community Member</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="section programs">
+    <div class="container">
+      <div class="banner-green"><h2 class="no-m t-center">Free Naloxone Training Programs</h2></div>
+
+      <div class="grid-3">
+        <div class="card">
+          <div class="title">Community Training</div>
+          <p class="meta">Learn to recognise overdose signs and respond safely.</p>
+          #Learn More</a>
+        </div>
+
+        <div class="card">
+          <div class="title">Peer‑to‑Peer (P2P)</div>
+          <p class="meta">Lived‑experience led sessions building community confidence.</p>
+          #Learn More</a>
+        </div>
+
+        <div class="card">
+          <div class="title">Organisational Training</div>
+          <p class="meta">For workplaces, services and community groups.</p>
+          #Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW TO GET NALOXONE -->
+  <section id="how" class="section steps">
+    <div class="container">
+
+      <h2>How to Get Naloxone</h2>
+
+      <div class="grid-2">
+        <div class="card step one">
+          <div class="title">1. Book Free Training</div>
+          <p>Attend one of our free sessions. Learn overdose recognition, naloxone use, and responder skills.</p>
+          #trainingBook Training</a>
+        </div>
+
+        <div class="card step two">
+          <div class="title">2. Get Your Kit</div>
+          <p>Receive your free naloxone kit at the end of training. Leave confident and prepared.</p>
+          #Get a Kit</a>
+        </div>
+      </div>
+
+      <div class="emergency"><strong>In an Emergency:</strong> Always call 999. Naloxone is temporary — medical help is essential.</div>
+    </div>
+  </section>
+
+  <!-- VOLUNTEER -->
+  <section id="volunteer" class="vol">
+    <div class="container">
+      <h2 class="t-center no-m">Join Our Community</h2>
+
+      <div class="grid-4">
+        <div class="card"><div class="title">Peer Trainer</div><p class="meta">Help deliver training with lived experience.</p>#Learn More</a></div>
+        <div class="card"><div class="title">Outreach Volunteer</div><p class="meta">Support outreach and engagement.</p>#Learn More</a></div>
+        <div class="card"><div class="title">Event Support</div><p class="meta">Assist at events and workshops.</p>#Learn More</a></div>
+        <div class="card"><div class="title">Behind the Scenes</div><p class="meta">Admin, planning, comms and logistics.</p>#Learn More</a></div>
+      </div>
+
+      <div class="center">#Sign Up to Volunteer</a></div>
+
+    </div>
+  </section>
+
+  <!-- RESOURCES -->
+  <section id="resources" class="section res">
+    <div class="container">
+      <span class="chip green">Free Resources</span>
+      <h2>Download Our Harm Reduction Resources</h2>
+
+      <div class="grid-3">
+        <div class="card"><div class="title">Overdose Response Guide</div><p class="meta">Recognise and respond effectively.</p>#Download PDF</a></div>
+        <div class="card"><div class="title">Naloxone Administration</div><p class="meta">Step‑by‑step instructions.</p>#Download PDF</a></div>
+        <div class="card"><div class="title">Harm Reduction Poster</div><p class="meta">Awareness and education.</p>#Download PDF</a></div>
+      </div>
+
+      <div class="center">#View All Resources</a></div>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section id="news" class="section news">
+    <div class="container">
+      <h2>News &amp; Announcements</h2>
+      <div class="grid-3">
+        <div class="card"><div class="title">Plymouth Council Partners with Naloxone Advocates</div><p class="meta">Expanding access to life‑saving training across the city.</p>#Read full story</a></div>
+        <div class="card"><div class="title">New Peer Training Programme Launches</div><p class="meta">Lived‑experience‑led support series now open for sign‑ups.</p>#Read more</a></div>
+        <div class="card"><div class="title">Harm Reduction Walk Expands Across Devon</div><p class="meta">Community‑driven awareness event.</p>#Read more</a></div>
+      </div>
+
+      <div class="center">#View All News</a></div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="t-center">Community Voices</h2>
+      <div class="grid-3">
+        <div class="card"><div class="title">Sarah J.</div><p>“The training gave me confidence to respond during an emergency.”</p><div class="stars">★★★★★</div></div>
+        <div class="card"><div class="title">Lee T.</div><p>“Supportive, community‑focused, and judgement‑free.”</p><div class="stars">★★★★★</div></div>
+        <div class="card"><div class="title">Naomi F.</div><p>“Life‑changing knowledge. Everyone should attend.”</p><div class="stars">★★★★★</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta">
+    <div class="container t-center">
+      <h2>Ready to Make a Difference?</h2>
+      <div class="cta-row t-center">
+        #trainingGet Trained</a>
+        #contactContact Us</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container cols">
+    <div>
+      <div class="brand m0-8">Naloxone Advocates</div>
+      <p class="meta">Creating safer communities through free training and harm reduction.</p>
+    </div>
+    <div><strong>Quick Links</strong><br/>#trainingTraining</a><br/>#resourcesResources</a></div>
+    <div><strong>Get Help</strong><br/>Email: info@example.org<br/>Emergency: 999</div>
+    <div><strong>Stay Connected</strong><br/>Twitter • Facebook • Instagram</div>
+  </div>
+  <div class="container banner-bottom">NALOXONE SAVES LIVES</div>
+</footer>
+
+<!-- CART DRAWER -->
+<aside id="cartDrawer" class="drawer">
+  <div class="drawer-header"><strong>Your Cart</strong><button id="closeCart" aria-label="Close">×</button></div>
+  <div id="cartItems"></div>
+  <div class="drawer-footer"><button id="toCheckout" class="btn pink">Go to Checkout</button></div>
+</aside>
+
+<!-- CHECKOUT -->
+<section id="checkout" class="checkout container hidden">
+  <h2>Checkout</h2>
+  <form id="checkoutForm">
+    <div class="grid-2">
+      <div>
+        <label>Full name<input name="name" required/></label>
+        <label>Email<input name="email" type="email" required/></label>
+        <label>Phone<input name="phone"/></label>
+      </div>
+      <div>
+        <label>Notes / Access needs<textarea name="notes" rows="5"></textarea></label>
+        <div class="summary"><strong>Booking summary</strong><ul id="summaryList"></ul></div>
+      </div>
+    </div>
+    <button class="btn pink" type="submit">Confirm Booking</button>
+    <div id="checkoutMsg" class="msg" role="status" aria-live="polite"></div>
+  </form>
+</section>
+
+<!-- Google Sheets endpoint -->
+<script>
+  const ENDPOINT = 'https://script.google.com/macros/s/AKfycbyckpp9ACxXNftfL0lHp5lIXq1axq-VF_XG3xzaadjvre_ee_Qa2DU0baBlyg-YYLWIHQ/exec';
+</script>
+
+<!-- Your JS -->
+script.js</script>
+
 </body>
 </html>
