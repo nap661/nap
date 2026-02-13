@@ -188,6 +188,6 @@ if (checkoutForm) {
 renderSessions();
 renderCart();
 
-// Expose removal for inline buttons (optional safeguard)
+// Expose for inline buttons
 window.addToCart = addToCart;
 window.removeFromCart = removeFromCart;
