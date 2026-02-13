@@ -191,3 +191,5 @@ renderCart();
 // Expose for inline buttons
 window.addToCart = addToCart;
 window.removeFromCart = removeFromCart;
+alert('JS loaded ✅');
+``
