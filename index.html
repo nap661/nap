@@ -203,3 +203,61 @@
         </div>
       </div>
     </section>
+    </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container cols">
+      <div>
+        <div class="brand m0-8">Naloxone Advocates</div>
+        <p class="meta">Creating safer communities through free training and harm reduction.</p>
+      </div>
+      <div><strong>Quick Links</strong><br/>#trainingTraining</a><br/>#resourcesResources</a></div>
+      <div><strong>Get Help</strong><br/>Email: info@example.org<br/>Emergency: 999</div>
+      <div><strong>Stay Connected</strong><br/>Twitter • Facebook • Instagram</div>
+    </div>
+    <div class="container banner-bottom">NALOXONE SAVES LIVES</div>
+  </footer>
+
+  <!-- CART DRAWER -->
+  <aside id="cartDrawer" class="drawer">
+    <div class="drawer-header"><strong>Your Cart</strong><button id="closeCart" aria-label="Close">×</button></div>
+    <div id="cartItems"></div>
+    <div class="drawer-footer"><button id="toCheckout" class="btn pink">Go to Checkout</button></div>
+  </aside>
+
+  <!-- CHECKOUT FORM -->
+  <section id="checkout" class="checkout container hidden">
+    <h2>Checkout</h2>
+
+    <form id="checkoutForm">
+      <div class="grid-2">
+        <div>
+          <label>Full name<input name="name" required/></label>
+          <label>Email<input name="email" type="email" required/></label>
+          <label>Phone<input name="phone"/></label>
+        </div>
+        <div>
+          <label>Notes / Access needs<textarea name="notes" rows="5"></textarea></label>
+          <div class="summary">
+            <strong>Booking summary</strong>
+            <ul id="summaryList"></ul>
+          </div>
+        </div>
+      </div>
+
+      <button class="btn pink" type="submit">Confirm Booking</button>
+      <div id="checkoutMsg" class="msg" role="status" aria-live="polite"></div>
+    </form>
+  </section>
+
+  <!-- Google Sheets endpoint (keep exactly as-is) -->
+  <script>
+    const ENDPOINT = 'https://script.google.com/macros/s/AKfycbyckpp9ACxXNftfL0lHp5lIXq1axq-VF_XG3xzaadjvre_ee_Qa2DU0baBlyg-YYLWIHQ/exec';
+  </script>
+
+  <!-- Site JS -->
+  <script src="ript>
+
+</body>
+</html>
